@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    rgb(44, 83, 100),
+    rgb(32, 58, 67),
+    rgb(15, 32, 39)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.pomodoro-timer {
+  padding: 30px;
+  border: 1px solid rgb(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+}
+
+.pomodoro-timer h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.custom-slider {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fill {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(125, 249, 208);
+}
+
+.task-block {
+  background-color: rgb(41, 80, 96);
+  border-radius: 20px;
+  margin: 10px 0;
+  height: 60px;
+  width: 412px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.task-block p {
+  width: 242px;
+  font-size: 20px;
+}
+
+.task-block .delete-icon {
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.task-block .controller-button {
+  height: 100%;
+  border: none;
+  width: 120px;
+  border-radius: 0 20px 20px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.input-container {
+  height: 60px;
+  width: 412px;
+  display: flex;
+}
+
+.input-container input {
+  background-color: rgb(206, 206, 207);
+  border-radius: 20px 0 0 20px;
+  width: 232px;
+  height: 100%;
+  border: none;
+  font-size: 20px;
+  padding: 0 30px;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.submit-button {
+  background-color: rgb(72, 182, 96);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 100%;
+  width: 120px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.sub-text {
+  margin: 4px;
+}
+
+.active-button {
+  background-color: rgb(244, 83, 83);
+  color: rgb(255, 255, 255);
+}
